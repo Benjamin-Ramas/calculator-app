@@ -15,8 +15,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -34,8 +32,6 @@ Users should be able to:
 
 ![A mobile screenshot of my website](./images/mobileScreenshot.png)
 
-### Links
-
 ## My process
 
 1. I first started by recreating the general layout so even without styling the placement of the elements should closely align with what I am trying to achieve.
@@ -44,7 +40,9 @@ Users should be able to:
 
 3. I then sectioned off the colours into their own seperate stylesheets so I could easily swap between them
 
-4. I added javascript functionailty to theme changing.
+4. I added javascript functionailty to theme changing. And replaced the previous button I used with an input slider.
+
+5. I then added calculation functionality with the calculator being fully operational.
 
 ### Built with
 
