@@ -2,25 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="stylesheet" href="./src/css/theme1.css">
   
   <title>Frontend Mentor | Calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-
+<div class="calcHolder">
+  <div class="calcTop">
+    <h1>calc</h1>
+    <div class="themeHolder">
+      <h2>THEME</h2>
+      <div>
+        <p>1 2 3</p>
+        <input type="range" min="1" max="3" value="1" class="themeSlider" id="myRange">
+      </div>
+    </div>
+  </div>
+  <div class="numDisplay">
+    <h1>399,981</h1>
+  </div>
+  <div class="keypad">
+    <div button class="calcKey key-1"><button >7</button></div>
+    <div button class="calcKey key-1"><button >8</button></div>
+    <div button class="calcKey key-1"><button >9</button></div>
+    <div button class="calcKey key-2"><button >DEL</button></div>
+    <div button class="calcKey key-1"><button >4</button></div>
+    <div button class="calcKey key-1"><button >5</button></div>
+    <div button class="calcKey key-1"><button >6</button></div>
+    <div button class="calcKey key-1"><button >+</button></div>
+    <div button class="calcKey key-1"><button >1</button></div>
+    <div button class="calcKey key-1"><button >2</button></div>
+    <div button class="calcKey key-1"><button >3</button></div>
+    <div button class="calcKey key-1"><button >-</button></div>
+    <div button class="calcKey key-1"><button >.</button></div>
+    <div button class="calcKey key-1"><button >0</button></div>
+    <div button class="calcKey key-1"><button >/</button></div>
+    <div button class="calcKey key-1"><button >x</button></div>
+    <div button class="calcKey key-2"><button >RESET</button></div>
+    <div button class="calcKey key-3"><button >=</button></div>
+  </div>
+</div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Benjamin-Ramas">Benjamin Ramas</a>.
   </div>
 </body>
 </html>

@@ -1,0 +1,98 @@
+//Backgrounds
+$main-background: hsl(0, 0%, 90%);
+$toggle-keypad-background: hsl(0, 5%, 81%);
+$screen-background: hsl(0, 0%, 93%);
+
+
+//Keys
+$key-toggle-1: hsl(183, 39%, 56%);
+$key-background-1: hsl(185, 42%, 37%);
+$key-shadow-1: hsl(185, 58%, 25%);
+
+$key-toggle-2: hsl(25, 100%, 61%);
+$key-background-2: hsl(25, 98%, 40%);
+$key-shadow-2: hsl(25, 99%, 27%);
+
+$key-toggle-3: hsl(0, 0%, 100%);
+$key-background-3: hsl(45, 7%, 89%);
+$key-shadow-3: hsl(35, 11%, 61%);
+
+//Text
+
+$Text-primary: hsl(60, 10%, 19%);
+$Text-secondary: hsl(0, 0%, 100%);
+
+body{
+    background-color: $main-background;
+}
+
+h1{
+    color: $Text-primary;
+}
+
+.themeSlider{
+    background-color:$toggle-keypad-background;
+}
+
+.themeSlider::-webkit-slider-thumb{
+    background: $key-background-2;
+}
+
+.themeSlider::-moz-range-thumb {
+    background: $key-background-2;
+}
+
+.themeSlider::-moz-range-thumb:hover{
+    background: $key-toggle-2;
+}
+
+.themeHolder{
+    color: $Text-primary;
+}
+
+.numDisplay{
+    background-color: $screen-background;
+    color: $Text-primary;
+}
+
+.keypad{
+    background-color: $toggle-keypad-background;
+}
+
+.key-1 button{
+    color: $Text-primary;
+    background-color: $key-background-3;
+    box-shadow: 0 0.3rem $key-shadow-3;
+}
+
+.key-1 button:hover{
+    background-color: $key-toggle-3;
+}
+
+.key-2 button{
+    color: $Text-secondary;
+    background-color: $key-background-1;
+    box-shadow: 0 0.3rem $key-shadow-1;
+}
+
+.key-2 button:hover{
+    background-color: $key-toggle-1;
+}
+
+.key-3 button{
+    color: $Text-secondary;
+    background-color: $key-background-2;
+    box-shadow: 0 0.3rem $key-shadow-2;
+}
+
+.key-3 button:hover{
+    background-color: $key-toggle-2;
+}
+
+.attribution{
+    color: $Text-primary;
+}
+
+.attribution a{
+    color: $key-background-2;
+}
