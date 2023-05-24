@@ -40,6 +40,12 @@ Users should be able to:
 
 1. I first started by recreating the general layout so even without styling the placement of the elements should closely align with what I am trying to achieve.
 
+2. I then start creating styles in css and scss to better match the intende design
+
+3. I then sectioned off the colours into their own seperate stylesheets so I could easily swap between them
+
+4. I added javascript functionailty to theme changing.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -53,7 +59,7 @@ I learned how to utilize the slider tool.
 
 ### Continued development
 
-This project is still unfinished and I plan on adding javascript in the future
+I am having a lot of difficulty with the calculator display and currently when the display text is too large it overflows to the left and a scroll bar appears however I wish for it to overflow to the right.
 
 ## Author
 

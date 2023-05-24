@@ -91,11 +91,15 @@ $thumbSize: 0.85rem;
     padding-top: 0.25rem;
 }
 
-.numDisplay h1{
-    margin: 1.5rem 0;
-    margin-right: 1.5rem;
+#numOutput{
+    position: relative;
+    right: 0;
+    margin: 1.5rem;
     font-size: 3em;
     letter-spacing: 0.05rem;
+    max-width: 95%;
+    text-align: right;
+    overflow: scroll;
 }
 
 .keypad{
