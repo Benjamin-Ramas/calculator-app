@@ -99,7 +99,7 @@ $thumbSize: 0.85rem;
     letter-spacing: 0.05rem;
     max-width: 95%;
     text-align: right;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .keypad{
@@ -127,6 +127,7 @@ $thumbSize: 0.85rem;
     margin: 0 auto;
     margin: 0 0.6rem;
     padding-top: 0.5rem;
+    cursor: pointer;
 }
 
 .key-1 button{
